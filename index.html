@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sarvesh Datar's work, technical projects, writing, and CV." />
+    <title>Sarvesh Datar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="profile-data.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Sarvesh Datar home">
+        <span class="brand-mark">SD</span>
+        <span>Sarvesh Datar</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a id="projects-nav-link" href="#projects">Projects</a>
+        <a id="academic-nav-link" href="#academic-record">Academic Record</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" id="profile-title"></p>
+          <h1 id="profile-name"></h1>
+          <p class="hero-summary" id="profile-summary"></p>
+          <div class="hero-actions">
+            <a class="button primary" id="email-link" href="#">Email</a>
+            <a class="button secondary" id="cv-link" href="#" target="_blank" rel="noreferrer">CV</a>
+            <a class="button secondary" id="github-link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel" aria-label="Profile image">
+          <div class="portrait" id="portrait" aria-hidden="true"></div>
+        </aside>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-heading">
+        <div class="section-head">
+          <h2 id="projects-heading">Projects</h2>
+          <div class="search-wrap">
+            <label class="sr-only" for="work-search">Search work</label>
+            <input id="work-search" type="search" placeholder="Search projects, reports, simulations..." />
+          </div>
+        </div>
+        <div class="topic-filters" id="topic-filters" aria-label="Project filters"></div>
+        <p class="empty-state" id="empty-state" hidden>No matching entries.</p>
+        <div id="project-list"></div>
+      </section>
+
+      <section class="section" id="academic-record" aria-labelledby="academic-record-heading">
+        <div class="section-head single">
+          <h2 id="academic-record-heading">Academic Record</h2>
+        </div>
+        <div id="academic-list"></div>
+      </section>
+
+      <section class="section grid-two" id="cv">
+        <div>
+          <h2>CV</h2>
+          <div class="section-copy" id="cv-notes"></div>
+          <a class="button primary" id="cv-link-secondary" href="#" target="_blank" rel="noreferrer">Open CV</a>
+        </div>
+        <div class="cv-preview">
+          <img src="assets/cv-preview.png" alt="Preview of Sarvesh Datar's CV" />
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-actions">
+          <a class="button primary" id="email-link-secondary" href="#">Email</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
