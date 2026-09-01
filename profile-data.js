@@ -1,9 +1,9 @@
 const profile = {
   name: "Sarvesh Datar",
   title: "Chemical Process Engineer",
-  summary: "Chemical process engineering, modeling, simulation, optimization, and technical writing.",
+  summary: "A Chemical Process Engineer interested in solving complex engineering problems.",
   email: "sarveshd2002@gmail.com",
-  github: "",
+  github: "https://github.com/SarvDa68",
   cv: "assets/sarvesh-datar-cv.pdf",
   portrait: "assets/Photo.jpeg",
 
@@ -17,34 +17,44 @@ const profile = {
   projects: `
   # Professional Industrial Projects
 
-## Process Design and Optimisation for Jubilant Ingrevia
+## Process Design & Optimisation for Jubilant Ingrevia
 Date: 2026
-Kind: Process design / simulation / optimisation
+Kind: Working for Equinox Software Services Pvt. Ltd.
 
-Working as Associate Process Engineer at Equinox Software Services Pvt. Ltd.
+The primary aim of the project was to minimise energy consumption and operating costs while maximising product recovery for a separation train at Jubilant Ingrevia Facility.
 
-Undertook plant-wide process design and optimisation for Jubilant Ingrevia while associated with Equinox. Designed processes to maximise product recovery while minimising energy consumption and operating costs.
+In order to achieve the goal, we undertook a plant-wide process design and optimisation study. 
+This included developing an accurate simulation model of the existing process and identifying bottlenecks. 
+The optimisation study involved evaluating alternative process configurations, equipment sizing, and operating conditions to minimise energy consumption and maximise recovery.
 
-Involved in pilot-scale and scale-up activities. Proposed greenfield alternatives including pressure swing distillation and reactive distillation to replace conventional high-energy processes.
+As a result of the study, we proposed several retrofit design solutions to improve the existing process.
+In addition we also proposed green-field alternatives like pressure swing distillation and reactive distillation solutions to replace the conventional high-energy consuming processes.
 
-- Process design and flowsheet development
-- Product recovery and energy-use optimisation
-- Pilot-scale and scale-up support
-- Evaluation of pressure swing distillation and reactive distillation alternatives
+The retro-fit designs promised a reduction in energy consumption by 60% and an increase in product recovery by 15%. 
+
 
 ## Automation Study for Multi-Batch Production Facility
 Date: 2026
-Kind: Automation / conceptual engineering
+Kind: Working for Equinox Software Services Pvt. Ltd.
 
-Worked on an automation study for a large private chemical production facility. The objective was to improve plant safety, reduce labour requirement, and increase operational efficiency.
+A green field Multi-Batch Production Facility required an automation study to evaluate the feasibility of completely automating the production process. 
+The Multi-Batch facility had a capacity to produce 9 different speciality chemical products on 3 separate production lines within the plant. 
 
-- Mapped manual and semi-automated plant operations
-- Studied automation opportunities across batch production workflows
-- Considered safety, labour, and efficiency implications
+The automation study included a detailed analysis of all the 9 chemical processes, their flow, equipment requirements, and the control systems required to ensure smooth running of the multi batch facility. 
+We also evaluated the potential impact of automation on product quality, safety, and regulatory compliance.
+
+A detailed report consisting of automation solutions, total cost of implementing the solutions and the advantages of automation in context of improved safety, better product quality and reduced labour costs was submitted to the client for further action. 
+
+
+## Modelling and Simulation for Bioprocessing Facility
+Date: 2026
+Kind: Working for Equinox Software Services Pvt. Ltd.
+
+
 
 ## Improvement of Proprietary Multi-Batch Distillation Software
 Date: 2026
-Kind: Simulation software / testing
+Kind: Working for Equinox Software Services Pvt. Ltd.
 
 Worked on improvements to MBDS, the proprietary multi-batch distillation software owned by Equinox Software Services Pvt. Ltd.
 
@@ -59,7 +69,7 @@ The work involved modernisation of the software, improvement of algorithms, calc
 ## Production of an Active Pharmaceutical Ingredient Precursor
 Date: 2024
 Kind: Process engineering internship
-Image: assets/Screenshot 2025-03-19 at 21.36.00.png
+
 
 
 
