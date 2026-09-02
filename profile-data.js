@@ -65,11 +65,14 @@ A detailed report consisting of the Aspen and BioSteam simulation model philosop
 Date: 2026
 Kind: Working for Equinox Software Services Pvt. Ltd.
 
-As a part of internal upgrade of the proprietary multi-batch distillation software, a detailed study was conducted to improve the existing software.
+As a part of internal upgrade of the proprietary Multi-Batch Distillation Software (MBDS), a detailed study was conducted to improve the existing software.
+
 The study included a detailed analysis of the existing software, its limitations, and areas for improvement. 
 Special impetus was given to incorporating AI and machine learning techniques to improve the accuracy and efficiency of the software.
 I also focussed on studying the algorithms used for solving the dynamic simulation using time marching and the optimisation algorithms used for optimising the multi-batch distillation process.
+
 Theoretical study and demonstration of new algorithms was done for case studies to evaluate the performance of the new algorithms.
+An improved version of the software was tested and validated against the literature data and existing software to ensure that the new algorithms provided better accuracy and efficiency.
 
 
 # Internship Projects
