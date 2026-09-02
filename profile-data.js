@@ -24,8 +24,8 @@ Kind: Working for Equinox Software Services Pvt. Ltd.
 The primary aim of the project was to minimise energy consumption and operating costs while maximising product recovery for a separation train at Jubilant Ingrevia Facility.
 
 In order to achieve the goal, we undertook a plant-wide process design and optimisation study. 
-This included developing an accurate simulation model of the existing process and identifying bottlenecks. 
-The optimisation study involved evaluating alternative process configurations, equipment sizing, and operating conditions to minimise energy consumption and maximise recovery.
+This included developing an accurate simulation model of the existing process and identifying bottlenecks. A total of 9 continuous distillation columns were modelled in Aspen Plus while another 3 columns were simulated in AspenBatchSep. 
+The optimisation study involved evaluating alternative process configurations, equipment sizing, and operating conditions to minimise energy consumption and maximise recovery. 
 
 As a result of the study, we proposed several retrofit design solutions to improve the existing process.
 In addition we also proposed green-field alternatives like pressure swing distillation and reactive distillation solutions to replace the conventional high-energy consuming processes.
@@ -50,19 +50,27 @@ A detailed report consisting of automation solutions, total cost of implementing
 Date: 2026
 Kind: Working for Equinox Software Services Pvt. Ltd.
 
+Majority of lactic acid is produced through fermentation. 
+A leading bioprocessing and speciality chemicals company required a detailed and robust model for simulating the fermentation process for lactic acid production.
+
+Using the kinetic data, a primary kinetic model was developed in python. The basic python kinetic model was integrated with BioSteam to develop a process simulation model. 
+The BioSteam model proved to be an open-sourvce alternative to the proprietary simulation software like Aspen. The open-source model was used for studying the effect of various process parameters on the fermentation process and also perform multi-objective optimisation.
+An Aspen Plus model was also developed for the fermentation process to validate the results obtained from the BioSteam model. 
+
+A detailed report consisting of the Aspen and BioSteam simulation model philosophy, optimisation results and recommendations for improving the fermentation process was submitted to the client for further action.
+
 
 
 ## Improvement of Proprietary Multi-Batch Distillation Software
 Date: 2026
 Kind: Working for Equinox Software Services Pvt. Ltd.
 
-Worked on improvements to MBDS, the proprietary multi-batch distillation software owned by Equinox Software Services Pvt. Ltd.
+As a part of internal upgrade of the proprietary multi-batch distillation software, a detailed study was conducted to improve the existing software.
+The study included a detailed analysis of the existing software, its limitations, and areas for improvement. 
+Special impetus was given to incorporating AI and machine learning techniques to improve the accuracy and efficiency of the software.
+I also focussed on studying the algorithms used for solving the dynamic simulation using time marching and the optimisation algorithms used for optimising the multi-batch distillation process.
+Theoretical study and demonstration of new algorithms was done for case studies to evaluate the performance of the new algorithms.
 
-The work involved modernisation of the software, improvement of algorithms, calculation methods, optimisation methods, and participation in testing.
-
-- Algorithm and calculation-method improvement
-- Optimisation workflow improvement
-- Software testing for batch distillation use cases
 
 # Internship Projects
 
