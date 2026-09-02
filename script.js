@@ -90,11 +90,9 @@ function makeImages(images = []) {
   `;
 }
 
-function makeEntry(topic, entry, index) {
-  const isFirst = index === 0;
-
+function makeEntry(topic, entry) {
   return `
-    <details class="entry" data-search="${escapeHtml(entrySearchText(topic, entry))}" ${isFirst ? "open" : ""}>
+    <details class="entry" data-search="${escapeHtml(entrySearchText(topic, entry))}">
       <summary>
         <span>
           ${entry.kind ? `<small>${escapeHtml(entry.kind)}</small>` : ""}
@@ -122,7 +120,7 @@ function makeTopic(topic) {
         <span>${entries.length}</span>
       </div>
       <div class="entry-list">
-        ${entries.map((entry, index) => makeEntry(topic, entry, index)).join("")}
+        ${entries.map((entry) => makeEntry(topic, entry)).join("")}
       </div>
     </section>
   `;

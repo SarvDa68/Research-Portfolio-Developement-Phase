@@ -444,6 +444,7 @@ h2 {
 .entry-body p {
   color: #3f5057;
   font-size: 1.04rem;
+  text-align: justify;
 }
 
 .entry-body p:last-child,
@@ -454,6 +455,7 @@ h2 {
 .entry-body ul {
   color: var(--muted);
   padding-left: 1.1rem;
+  text-align: justify;
 }
 
 .entry-body li + li {
