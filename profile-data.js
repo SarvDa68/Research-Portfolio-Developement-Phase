@@ -79,12 +79,22 @@ An improved version of the software was tested and validated against the literat
 
 ## Production of an Active Pharmaceutical Ingredient Precursor
 Date: 2024
-Kind: Process engineering internship
+Kind: As Research Intern at Indian Institute of Technology, Bombay (IIT-Bombay)
+
+As a part of industrial research project, a lab scale setup developed to produce an active pharmaceutical ingredient precursor needed to be scaled up to a pilot scale production facility. 
+A pre pilot scale process was setup at IIT-Bombay which included a packed bed reactor and batch distillation column along with other auxiliary equipment.
+An online Gas Chromatography (GC) system was used to monitor the reaction and separation process continuously.
+
+As a part of independant research work, experiments were conducted on lab and pre pilot scale setup to study the effect of sulphonation density of the catalyst on the acid activity and selectivity of the reaction.
+A research paper based on this work was published in Molecular Catalysis. 
+
+Using extensive experimentation and simulation work, the process was optimised to achieve maximum yield and purity of the product. 
+A net saving of 40 % in production cost was achieved by replacing the conventional raw materials with new biorefinery-based materials, using solid regenrative catalysts which can be reused and optimising the process parameters
+
+A detailed report consisting of the process route, design calculations, simulation results was submitted to the industry partner for further action.
+Further research work incorporated reactive distillation to replace the reaction and batch distillation with a single unit operation. A fluidised bed dryer was also designed to allow continuous regeneration of the solid catalyst.
 
 
-
-
-Add project details here: process objective, chemistry or separation challenge, design method, calculations, simulation work, constraints, and final output.
 
 ## Process Design for Production of a Perfumery Intermediate Chemical
 Date: 2023
