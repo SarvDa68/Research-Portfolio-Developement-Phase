@@ -146,13 +146,48 @@ Add project details here: synthesis route, process assumptions, equipment choice
   // Use the same simple format here.
   // Suggested groups: "# Courses", "# Certifications", "# Publications".
   academicRecord: `
-# Courses
+# Education
 
-## Add course name
-Date:
-Kind: Course
+## MSc Advanced Chemical Engineering with Process Systems Engineering 
+Date: 2025
+Kind: Imperial College London
 
-Add institution, topics covered, project work, grade, or relevant technical content.
+Completed Master's degree from Imperial College London. 
+
+Grade : Distinction
+
+Courses taken: 
+- Advanced Process Design 
+- Advanced Process Optimisation 
+- Dynamic Behaviour of Process Systems 
+- Advanced Process Operations 
+- Machine Learning for Chemical Engineering
+- Pharmaceutical Process Developement
+- Advanced Environmental Engineering 
+- Sustainable Energy Technologies 
+
+
+## B.Tech Chemical Engineering 
+Date: 2024
+Kind: MIT-WPU
+
+Completed Bachelor's degree in Chemical Engineering from MIT-WPU, Pune. 
+Graduated as a Gold Medalist. 
+Completed a minor degree in computer science engineering along with the major degree.
+
+
+CGPA : 9.92 / 10 
+
+Additional Courses Taken (Aprt from regular ChemE Courses):
+- Cell and Microbial Biology
+- Biocatalysis
+- Bioreactor Design and Analysis 
+- Database management Systems
+- Artificial Intelligence and Machine Learning
+- Software Developement and Project Management 
+- Accounting and Finance 
+
+
 
 # Certifications
 
