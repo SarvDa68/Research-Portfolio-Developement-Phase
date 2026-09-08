@@ -106,7 +106,7 @@ Add project details here: feed/product specifications, process route, equipment 
 
 ## Predicting and Controlling the Growth Shape of Crystals: A Solvent Selection Approach
 Date: 2025
-Kind: Thesis project
+Kind: Master's Thesis Project at Imperial College London
 
 Thesis project supervised by Prof. Dr. Claire Adjiman.
 
@@ -114,13 +114,19 @@ Add the core technical details here: research question, crystal system, solvent-
 
 ## Process Design for Sustainable Production of Formaldehyde
 Date: 2024
-Kind: Process design
+Kind: Design Project completed durring Master's at Imperial College London 
 
 Add project details here: process route, design basis, mass and energy balances, reactor/separation design, sustainability considerations, and final process evaluation.
 
+
+## Production of an Active Pharmaceutical Ingrdient (API) Precursor
+Date: 2024
+Kind: Bachelor's Thesis Project
+
+
 ## Design and Optimisation of Medical Oxygen Concentrator
 Date: 2023
-Kind: Design / optimisation
+Kind: 
 
 Add project details here: adsorption process, design constraints, optimisation method, assumptions, calculations, and final design outcome.
 
