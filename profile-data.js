@@ -122,7 +122,12 @@ Kind: Master's Thesis Project at Imperial College London
 
 Thesis project supervised by Prof. Dr. Claire Adjiman.
 
+The major problem in crystallisation systems is the formation of undesired crystal shapes which can clog the downstream equipment or reduce the overall efficiency of the process.
+The project aimed to develop a mechanistic modelwhich could predict the growth shape of crystals based on the solvent selection and process conditions.
+The model was extended further to control the growth shape of crystals to completely avoid the formation of undesired crystal shapes by selecting optimal solvents and operating conditions. The model was validated against experimental data for naphtalene and biphenyl crystallisation systems.
+Further work included developing a machine learning model to predict the growth shape of crystals based on the solvent selection and process conditions. The model was trained on a dataset of experimental results and validated against literature data.
 
+-- PDF of the thesis and high definition image of the poster to be attached here where user should be able to download the thesis and poster.
 
 ## Process Design for Sustainable Production of Formaldehyde
 Date: 2024
