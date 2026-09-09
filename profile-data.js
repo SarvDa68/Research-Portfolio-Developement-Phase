@@ -98,9 +98,21 @@ Further research work incorporated reactive distillation to replace the reaction
 
 ## Process Design for Production of a Perfumery Intermediate Chemical
 Date: 2023
-Kind: Process design internship
+Kind: As Project Trainee at CSIR-National Chemical Laboratory (CSIR-NCL)
 
-Add project details here: feed/product specifications, process route, equipment choices, design calculations, simulation results, and economic or safety considerations.
+Acetophenone is a perfumery chemical widely used in the fragrance industry. 
+Production of Acetophenone using Ethyl Benzene Hydroperoxide and Cumene Hydroperoxide is highly preffered. 
+This is because the process is highly selective and produce co-products which are easy to separate.
+A lab scale and pilot scale setup was developed at CSIR-NCL to produce Ethyl Benzene Hydroperoxide and Cumene Hydroperoxide.
+
+The hydroperoxides were produced through the oxidation of Ethyl Benzene and Cumene respectively.
+The reactions required high temperature and pressure conditions and were carried out in a batch reactor.
+A major engineering challenge arised in the process due to highly unstable nature of the hydroperoxides.
+
+In order to overcome the challenge, a detailed study was conducted to understand the effect of various process parameters on the reaction and separation process.
+As a part of the study, several experimental and process intensification options were also considered which included a plug flow reactor and a continuous stirred tank reactor for the oxidation reaction and a reactive distillation column for the separation of the hydroperoxides from the reaction mixture.
+It was concluded that precise and advanced process control are required for process intensification options to ensure safe operation and avoid any runaway conditions of the process.
+
 
 # Academic Projects
 
@@ -110,7 +122,7 @@ Kind: Master's Thesis Project at Imperial College London
 
 Thesis project supervised by Prof. Dr. Claire Adjiman.
 
-Add the core technical details here: research question, crystal system, solvent-selection method, modelling approach, experimental or computational workflow, and conclusions.
+
 
 ## Process Design for Sustainable Production of Formaldehyde
 Date: 2024
@@ -156,7 +168,7 @@ Completed Master's degree from Imperial College London.
 
 Grade : Distinction
 
-Courses taken: 
+Courses Taken:
 - Advanced Process Design 
 - Advanced Process Optimisation 
 - Dynamic Behaviour of Process Systems 
