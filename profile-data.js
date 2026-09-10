@@ -133,25 +133,31 @@ Further work included developing a machine learning model to predict the growth 
 Date: 2024
 Kind: Design Project completed durring Master's at Imperial College London 
 
-Add project details here: process route, design basis, mass and energy balances, reactor/separation design, sustainability considerations, and final process evaluation.
+As a part of design project, a process for the sustainable production of formaldehyde from CO2 and H2 was designed. 
+The process produced Methanol from CO2 and H2 using a catalytic hydrogenation reaction. The produced methanol was then converted to formaldehyde using a catalytic dehydrogenation reaction. 
+The complete process was designed and simulated in Aspen HYSYS. 
+Using heat integration techniques, the process was optimised to minimise energy consumption and maximise product recovery.
+Further more, OpenLCA was used to perform a life cycle assessment of the process to evaluate the environmental impact of the process and identify areas for improvement. 
 
-
-## Production of an Active Pharmaceutical Ingrdient (API) Precursor
-Date: 2024
-Kind: Bachelor's Thesis Project
 
 
 ## Design and Optimisation of Medical Oxygen Concentrator
 Date: 2023
-Kind: 
+Kind: Seminar Project at MIT-WPU
 
-Add project details here: adsorption process, design constraints, optimisation method, assumptions, calculations, and final design outcome.
+The medical oxygen concentrator concentrates oxygen from ambient air using a pressure swing adsorption process.
+Several other technologies like vacuum swing adsorption, rapid pressure swing adsorption have been used extensively in the industry for oxygen concentration.
+For this project, a detailed study regarding the feasiblity and design of rapid pressure swing adsorption process for oxygen concentration was conducted.
+Rapid Pressure Swing Adsorption (RPSA) utilises a single adsoption bed as opposed to two, thereby saving cost. Special importance was given for optimisation of adsoroption process while maximising recovery and reducing energy consumption and bed/zeolite cost.
+
+The design was further used by a team to develop a prototype of the medical oxygen concentrator which was tested and calibrated for performance.
 
 ## TEG ChemE Car
 Date: 2022
-Kind: Design / competition
+Kind: AIChE ChemE Car Competition 2022
 
-Add project details here: reaction system, stopping mechanism, design choices, testing, calibration, and performance.
+American Institute of Chemical Engineers (AIChE) ChemE Car Competition is an annual competition where teams of undergraduate and graduate students design and build a small-scale car powered by a chemical reaction. The car must be able to travel a specified distance and stop at a designated point, all while being powered by a chemical reaction.
+
 
 ## Process Design for Production of Green Copper Nanoparticles
 Date: 2022
