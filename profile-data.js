@@ -74,6 +74,22 @@ I also focussed on studying the algorithms used for solving the dynamic simulati
 Theoretical study and demonstration of new algorithms was done for case studies to evaluate the performance of the new algorithms.
 An improved version of the software was tested and validated against the literature data and existing software to ensure that the new algorithms provided better accuracy and efficiency.
 
+# Independant Projects 
+
+## Equation Oriented Distillation Column Simulator
+Date: 2026
+
+Independently designed and developed a rigorous steady-state distillation simulator in Python using Pyomo and IPOPT, with a focus on process optimisation, numerical methods, and model-based decision making. The simulator solves the complete MESH (Material, Equilibrium, Summation, and Heat) equations simultaneously using an equation-oriented nonlinear programming framework, enabling robust analysis of column behaviour beyond conventional sequential calculations. Advanced numerical techniques were implemented to improve convergence, including physically informed initialisation strategies, adaptive solver handling, and a custom bisection-based specification framework to overcome degeneracies associated with purity-constrained optimisation problems.
+
+The tool is being developed as a research platform for distillation column optimisation, surrogate model generation, and process intensification studies. Key features include full stage-wise energy balances, convergence diagnostics, automated fallback strategies, and comprehensive process visualisation capabilities. The project demonstrates strong independent problem-solving, process modelling, and computational engineering skills, and is currently under active development as an open-source project hosted on GitHub.
+
+
+## Smart Reports for Management
+Date: 2026
+
+TO BE COMPLETED WITH PROJECT
+
+
 
 # Internship Projects
 
@@ -157,14 +173,23 @@ Date: 2022
 Kind: AIChE ChemE Car Competition 2022
 
 American Institute of Chemical Engineers (AIChE) ChemE Car Competition is an annual competition where teams of undergraduate and graduate students design and build a small-scale car powered by a chemical reaction. The car must be able to travel a specified distance and stop at a designated point, all while being powered by a chemical reaction.
+In a team, we developed a chemical car which was powered by thermoelectric generator (TEG). 
+Exothermic and endothermic reactions were used to generate heat and cool the TEG respectively. The TEG converted the heat energy into electrical energy which was used to power the car.
+Iodine clock reaction was used to control the speed of the car and ensure that it stopped at the designated point.
 
+The design of the car was conceptualised and then the car was built and tested for performance. The car was able to travel the specified distance and stop at the designated point with a high degree of accuracy.
+Along with the design and developement, I was also the safety head of the team and was responsible for ensuring that all safety protocols were followed during the design, development, and testing of the car.
+
+The TEG Chemical Car won the Student Regional Conference (SRC) 2022 and was selected to represent the India at the AIChE Annual Student Conference 2022.
 
 ## Process Design for Production of Green Copper Nanoparticles
 Date: 2022
 Kind: Process design
 
-Add project details here: synthesis route, process assumptions, equipment choices, sustainability considerations, and final design.
-  `,
+Developed a sustainable synthesis process for copper nanoparticles (CuNPs) using Azadirachta indica (neem) leaf extract as a natural reducing and capping agent via homogeneous precipitation. The work focused on designing an environmentally friendly and cost-effective alternative to conventional nanoparticle synthesis routes by eliminating the use of toxic chemical reducing agents. The synthesized nanoparticles were characterized using UV-Visible Spectroscopy, FTIR, and SEM, confirming successful CuNP formation with predominantly spherical particles in the 50-70 nm size range.
+
+The developed CuNPs were evaluated for photocatalytic degradation of methylene blue dye in wastewater under sunlight irradiation. The process achieved approximately 60% dye degradation within 120 minutes, demonstrating the potential of bio-derived nanomaterials for sustainable wastewater treatment applications. This project combined process development, materials characterization, and performance evaluation to support environmentally responsible treatment technologies.
+`,
 
   // Use the same simple format here.
   // Suggested groups: "# Courses", "# Certifications", "# Publications".
