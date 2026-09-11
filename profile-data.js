@@ -237,21 +237,28 @@ Additional Courses Taken (Aprt from regular ChemE Courses):
 
 
 
-# Certifications
-
-## Add certification name
-Date:
-Kind: Certification
-
-Add issuer, credential ID, link, and what the certification covered.
 
 # Publications
 
-## Add publication title
-Date:
-Kind: Publication
+## Effect of sulfonation density on acid strength in ion exchange resins: Insights from solid-state NMR and density functional theory
+Date: 2024
+Kind: Elsevier Molecular Catalysis
 
-Add authors, venue, status, abstract, DOI, preprint, poster, or report link.
+DOI : 10.1016/j.mcat.2026.115794
+
+View Paper : https://www.sciencedirect.com/science/article/abs/pii/S2468823126000945?via%3Dihub
+
+
+
+## Experimental Study on Green Synthesis of Copper Nanoparticles and Its Utilization for Degradation of Organic Dye
+Date: 2023
+Kind: Springer Lecture Notes in Civil Engineering  
+
+DOI : 10.1007/978-981-99-6762-9_7
+
+View Paper : https://link.springer.com/chapter/10.1007/978-981-99-6762-9_7
+
+
   `,
 
   cvNotes: ""
