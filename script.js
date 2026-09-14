@@ -38,15 +38,33 @@ function formatPlainText(value = "") {
   return blocks
     .map((block) => {
       const lines = block.split("\n").map((line) => line.trim()).filter(Boolean);
-      const isList = lines.every((line) => line.startsWith("- "));
+      const parts = [];
+      let paragraph = [];
+      let list = [];
 
-      if (isList) {
-        return `<ul>${lines
-          .map((line) => `<li>${linkify(escapeHtml(line.slice(2)))}</li>`)
-          .join("")}</ul>`;
-      }
+      const commitParagraph = () => {
+        if (!paragraph.length) return;
+        parts.push(`<p>${linkify(escapeHtml(paragraph.join(" ")))}</p>`);
+        paragraph = [];
+      };
+      const commitList = () => {
+        if (!list.length) return;
+        parts.push(`<ul>${list.map((item) => `<li>${linkify(escapeHtml(item))}</li>`).join("")}</ul>`);
+        list = [];
+      };
 
-      return `<p>${linkify(escapeHtml(lines.join(" ")))}</p>`;
+      lines.forEach((line) => {
+        if (line.startsWith("- ")) {
+          commitParagraph();
+          list.push(line.slice(2));
+        } else {
+          commitList();
+          paragraph.push(line);
+        }
+      });
+      commitParagraph();
+      commitList();
+      return parts.join("");
     })
     .join("");
 }
@@ -79,9 +97,31 @@ function makeImages(images = []) {
       ${validImages
         .map(
           (image) => `
-            <a href="${escapeHtml(image.url)}" target="_blank" rel="noreferrer">
-              <img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.caption || "Project image")}" loading="lazy" />
+            <div class="entry-image">
+              <a class="entry-image-preview" href="${escapeHtml(image.url)}" target="_blank" rel="noreferrer">
+                <img src="${escapeHtml(image.url)}" alt="${escapeHtml(image.caption || "Project image")}" loading="lazy" />
+              </a>
               ${image.caption ? `<span>${escapeHtml(image.caption)}</span>` : ""}
+              <a class="entry-image-download" href="${escapeHtml(image.url)}" download>Download image</a>
+            </div>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
+function makeAttachments(attachments = []) {
+  const validAttachments = attachments.filter((attachment) => attachment.url);
+  if (!validAttachments.length) return "";
+
+  return `
+    <div class="entry-attachments" aria-label="Project downloads">
+      ${validAttachments
+        .map(
+          (attachment) => `
+            <a href="${escapeHtml(attachment.url)}" download>
+              Download ${escapeHtml(attachment.label || "attachment")}
             </a>
           `
         )
@@ -103,6 +143,7 @@ function makeEntry(topic, entry) {
       <div class="entry-body">
         ${makeImages(entry.images)}
         ${formatPlainText(entry.text)}
+        ${makeAttachments(entry.attachments)}
         ${makeLinks(entry.links)}
       </div>
     </details>
@@ -133,6 +174,7 @@ function emptyEntry() {
     kind: "",
     text: "",
     images: [],
+    attachments: [],
     links: []
   };
 }
@@ -199,6 +241,12 @@ function parseContent(content = "") {
     if (entry && /^image:/i.test(trimmed)) {
       const [url, caption] = trimmed.replace(/^image:/i, "").split("|").map((part) => part?.trim());
       if (url) entry.images.push({ url, caption: caption || "" });
+      return;
+    }
+
+    if (entry && /^(attachment|file):/i.test(trimmed)) {
+      const [url, label] = trimmed.replace(/^(attachment|file):/i, "").split("|").map((part) => part?.trim());
+      if (url) entry.attachments.push({ url, label: label || "attachment" });
       return;
     }
 

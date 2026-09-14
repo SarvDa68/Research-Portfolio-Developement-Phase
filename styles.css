@@ -78,6 +78,7 @@ a {
 .nav,
 .hero-actions,
 .entry-links,
+.entry-attachments,
 .topic-filters,
 .panel-strip,
 .contact-actions {
@@ -473,6 +474,67 @@ h2 {
   flex-wrap: wrap;
   gap: 14px;
   margin-top: 18px;
+}
+
+.entry-attachments {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.entry-attachments a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.entry-media {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 0 0 20px;
+}
+
+.entry-image {
+  display: grid;
+  gap: 8px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+  padding: 8px;
+}
+
+.entry-image-preview {
+  display: block;
+}
+
+.entry-image img {
+  display: block;
+  width: 100%;
+  height: clamp(180px, 28vw, 360px);
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.entry-image span {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.entry-image-download {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 850;
+  text-decoration: none;
 }
 
 .section-copy {
