@@ -85,12 +85,6 @@ Independently designed and developed a rigorous steady-state distillation simula
 The tool is being developed as a research platform for distillation column optimisation, surrogate model generation, and process intensification studies. Key features include full stage-wise energy balances, convergence diagnostics, automated fallback strategies, and comprehensive process visualisation capabilities. The project demonstrates strong independent problem-solving, process modelling, and computational engineering skills, and is currently under active development as an open-source project hosted on GitHub.
 
 
-## Smart Reports for Management
-Date: 2026
-
-TO BE COMPLETED WITH PROJECT
-
-
 
 # Internship Projects
 
@@ -111,7 +105,7 @@ A net saving of 40 % in production cost was achieved by replacing the convention
 A detailed report consisting of the process route, design calculations, simulation results was submitted to the industry partner for further action.
 Further research work incorporated reactive distillation to replace the reaction and batch distillation with a single unit operation. A fluidised bed dryer was also designed to allow continuous regeneration of the solid catalyst.
 
-
+Attachment: assets/CAPSTONE PROJECT FINAL .pdf | Bachelor's Thesis/ Internship Report
 
 ## Process Design for Production of a Perfumery Intermediate Chemical
 Date: 2023
@@ -144,9 +138,16 @@ The project aimed to develop a mechanistic modelwhich could predict the growth s
 The model was extended further to control the growth shape of crystals to completely avoid the formation of undesired crystal shapes by selecting optimal solvents and operating conditions. The model was validated against experimental data for naphtalene and biphenyl crystallisation systems.
 Further work included developing a machine learning model to predict the growth shape of crystals based on the solvent selection and process conditions. The model was trained on a dataset of experimental results and validated against literature data.
 
+
+Attachment: assets/Adjiman_DATAR Sarvesh 06007570.pdf | MSc Thesis
+
+Image: assets/Poster1.jpeg | MSc Poster
+
+
+
 ## Process Design for Sustainable Production of Formaldehyde
 Date: 2024
-Kind: Design Project completed durring Master's at Imperial College London 
+Kind: Design Project completed during Master's at Imperial College London 
 
 As a part of design project, a process for the sustainable production of formaldehyde from CO2 and H2 was designed. 
 The process produced Methanol from CO2 and H2 using a catalytic hydrogenation reaction. The produced methanol was then converted to formaldehyde using a catalytic dehydrogenation reaction. 
