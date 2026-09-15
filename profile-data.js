@@ -4,7 +4,7 @@ const profile = {
   summary: "A Chemical Process Engineer interested in solving complex engineering problems.",
   email: "sarveshd2002@gmail.com",
   github: "https://github.com/SarvDa68",
-  cv: "assets/sarvesh-datar-cv.pdf",
+  cv: "assets/Sarvesh_Datar_CV.pdf",
   portrait: "assets/Photo.jpeg",
 
   // Write projects normally here.
